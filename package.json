@@ -1,0 +1,48 @@
+{
+  "name": "code-mentoring",
+  "version": "1.0.0",
+  "description": "a tool to connect code mentors with theirs pupils",
+  "main": "server.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "express-validator": "^6.2.0",
+    "mongoose": "^5.7.3",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.2",
+    "passport": "^0.4.0",
+    "passport-facebook": "^3.0.0",
+    "passport-github": "^1.1.0",
+    "passport-google-oauth": "^2.0.0",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-local": "^1.0.0",
+    "react-scroll": "^1.7.16",
+    "validator": "^11.1.0"
+  },
+  "scripts": {
+    "test": "test",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "clientinstall": "npm install --prefix client",
+    "dev": "concurrently --kill-others \"npm run server\" \"npm run client\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/KrzysiekKuczma/code-mentoring.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/KrzysiekKuczma/code-mentoring/issues"
+  },
+  "homepage": "https://gitlab.com/KrzysiekKuczma/code-mentoring#README",
+  "devDependencies": {
+    "@types/react": "^16.9.49",
+    "concurrently": "^5.0.0"
+  }
+}
