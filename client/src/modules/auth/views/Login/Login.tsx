@@ -44,11 +44,11 @@ export const Login: FunctionComponent = () => {
                             value={password}
                             onChange={e => onChange(e)}
                         />
-                        <ActionButton type="submit" name="Zaloguj" />
+                        <ActionButton type="submit" name="Login" />
                     </StyledForm>
                 </form>
-                <a href="a"><p>Zapomniałeś hasła?</p></a>
-                <p>lub zaloguj się za pomocą</p>
+                <a href="a"><p>Forgot your password?</p></a>
+                <p>or login with</p>
                 <SocialMedia>
                     <div>
                         <a href={`${process.env.REACT_APP_SERVER_URL}/auth/facebook`}>

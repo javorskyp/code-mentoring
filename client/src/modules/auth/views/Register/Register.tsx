@@ -44,12 +44,12 @@ export const Register: FunctionComponent = () => {
                             value={password}
                             onChange={e => onChange(e)}
                         />
-                        <ActionButton type="submit" name={"Zarejestruj"} />
+                        <ActionButton type="submit" name={"Register"} />
                     </StyledForm>
                 </form>
 
                 <p>message form the register verification</p>
-                <p>lub zaloguj się za pomocą</p>
+                <p>or register with</p>
                 <SocialMedia>
                     <div>
                         <a href={`${process.env.REACT_APP_SERVER_URL}/auth/facebook`}>

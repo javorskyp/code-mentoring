@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import alvaroReyesCoders from '../../../../assets/alvaroReyesCoders.jpg';
 
 const Styles = styled.div ` 
-    background: linear-gradient(315deg,#56ccf2 0,#3a95ee 73%,#2f80ed 100%);
+    background: var(--LightThemeBcg);
     height: 100vh;
     overflow: hidden;
 `;

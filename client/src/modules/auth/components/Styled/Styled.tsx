@@ -12,7 +12,7 @@ export const Wrapper = styled.div`
   border-radius: 8px;
   box-shadow: 2px 2px 2px 0px var(--PrimaryLight);
   flex-wrap: wrap;
-  background: var(--LightThemeDisabled);
+  background: white;
   margin-bottom: 40px;
   p {
     font-size: 14px;
