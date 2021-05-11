@@ -30,7 +30,7 @@ const Text = styled.p`
     text-align: center;
 `;
 
-const BottomArrow = styled.div`
+const Arrow = styled.div`
     position: absolute;
     width: 50px;
     height: 50px;
@@ -65,8 +65,7 @@ export const Hero = () => (
                  <ImgOfCoders src={alvaroReyesCoders}/>
              </Mask>
              <Text>Poznaj ludzi, z którymi rozwiniesz swoje umiejętności</Text>
-
-             <BottomArrow/>
+             <Arrow/>
         </Wrapper>
     </Styles>
 );
