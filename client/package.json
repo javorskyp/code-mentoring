@@ -4,6 +4,8 @@
   "private": true,
   "proxy": "http://localhost:5000/",
   "dependencies": {
+    "@babel/plugin-transform-react-jsx": "^7.13.12",
+    "@babel/plugin-transform-react-jsx-self": "^7.12.13",
     "@types/axios": "^0.14.0",
     "@types/jest": "^24.9.0",
     "@types/node": "^13.1.8",
@@ -45,6 +47,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/helper-define-map": "^7.13.12",
     "eslint-config-prettier": "^6.9.0",
     "eslint-plugin-prettier": "^3.1.2",
     "prettier": "^1.19.1",

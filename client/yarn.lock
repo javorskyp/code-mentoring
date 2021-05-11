@@ -138,6 +138,14 @@
     "@babel/helper-annotate-as-pure" "^7.12.13"
     regexpu-core "^4.7.1"
 
+"@babel/helper-define-map@^7.13.12":
+  version "7.13.12"
+  resolved "https://registry.yarnpkg.com/@babel/helper-define-map/-/helper-define-map-7.13.12.tgz#4f7a67d164560137a820f3cfe12f142123e66063"
+  integrity sha512-r9/bcpR9n3FHH4Iq9Pz96mvnBbV4D8aDYUW5HjkR8eaQhJmsGshRh1bfOalGKofWOB/3KVFtmLf0iJi7/6Lgfg==
+  dependencies:
+    "@babel/helper-function-name" "^7.12.13"
+    "@babel/types" "^7.13.12"
+
 "@babel/helper-define-polyfill-provider@^0.2.0":
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/@babel/helper-define-polyfill-provider/-/helper-define-polyfill-provider-0.2.0.tgz#a640051772045fedaaecc6f0c6c69f02bdd34bf1"
@@ -828,7 +836,7 @@
   dependencies:
     "@babel/plugin-transform-react-jsx" "^7.12.17"
 
-"@babel/plugin-transform-react-jsx-self@^7.9.0":
+"@babel/plugin-transform-react-jsx-self@^7.12.13", "@babel/plugin-transform-react-jsx-self@^7.9.0":
   version "7.12.13"
   resolved "https://registry.yarnpkg.com/@babel/plugin-transform-react-jsx-self/-/plugin-transform-react-jsx-self-7.12.13.tgz#422d99d122d592acab9c35ea22a6cfd9bf189f60"
   integrity sha512-FXYw98TTJ125GVCCkFLZXlZ1qGcsYqNQhVBQcZjyrwf8FEUtVfKIoidnO8S0q+KBQpDYNTmiGo1gn67Vti04lQ==
