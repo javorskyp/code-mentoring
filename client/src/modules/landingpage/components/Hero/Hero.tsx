@@ -62,7 +62,7 @@ export const Hero = () => (
     <Styles id="section1">
          <Wrapper>
              <Mask>
-                 <ImgOfCoders src={alvaroReyesCoders}/>
+                
              </Mask>
              <Text>Poznaj ludzi, z którymi rozwiniesz swoje umiejętności</Text>
              <Arrow/>

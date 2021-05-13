@@ -33,7 +33,7 @@ export const Join: FunctionComponent = () => (
             <p>Zacznij już dziś</p>
         </div>
         <ButtonWrapper>
-            <Link to='/login' style={{ textDecoration: 'none' }}>
+            <Link to='auth/login' style={{ textDecoration: 'none' }}>
                 <ActionButton background="linear-gradient(315deg,#56ccf2 0,#3a95ee 73%,#2f80ed 100%)" name="Zaloguj" margin="default" />
             </Link>
         </ButtonWrapper>
