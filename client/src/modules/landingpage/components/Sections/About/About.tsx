@@ -48,9 +48,7 @@ export const About: FunctionComponent = () => (
         <ul><span>Po co to wszystko</span></ul>
             <ItemWrapper>
                 <img src={whatWeDo} className="item__image" alt="WhatWeDo"/>
-                
                 <div>
-                    
                     <p>Chcemy stworzyć narzędzie, które pozwoli początkującym programistom 
                         znaleźć mentorów, którzy pomogą im szybciej wejść na rynek i tworzyć komercyjne projekty.
                     </p>

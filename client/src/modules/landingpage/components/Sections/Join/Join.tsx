@@ -30,11 +30,11 @@ const ButtonWrapper = styled.div`
 export const Join: FunctionComponent = () => (
     <Styles>
         <div>
-            <p>Zacznij już dziś</p>
+            <p>Join to us </p>
         </div>
         <ButtonWrapper>
             <Link to='auth/login' style={{ textDecoration: 'none' }}>
-                <ActionButton background="linear-gradient(315deg,#56ccf2 0,#3a95ee 73%,#2f80ed 100%)" name="Zaloguj" margin="default" />
+                <ActionButton background="linear-gradient(315deg,#56ccf2 0,#3a95ee 73%,#2f80ed 100%)" name="Login" margin="default" />
             </Link>
         </ButtonWrapper>
     </Styles>
