@@ -57,21 +57,18 @@ const Styles = styled.div `
 
 const cardContent = [
     {
-        title: 'Rozwijaj swoje pomysły wspólnie z innymi',
-        description: 'Wspólna nauka często prowadzi do stworzeia pomysłu, który może okazać się wielkim krokiem w Twojej karierze. Rozwijaj wspólnie nowe rewolucyjne projekty'
+        title: 'Develop your ideas together with others',
+        description: 'Learning together often leads to an idea that could turn out to be a huge step in your career. Develop new revolutionary projects together'
     },
     {
-        title: 'Znajdź swojego mentora',
-        description: 'Dzięki pomocy doświadczonego dewelopera dużo łatwiej będzie Ci zdobywać wiedzę i umiejętności profesjonalnego programisty'
+        title: 'Find your Mentor',
+        description: 'Thanks to the help of an experienced developer, it will be much easier for you to acquire knowledge and skills of a professional developer'
     },
     {
-        title: 'Rozwijaj się szybciej dzięki dzieleniu się wiedzą',
-        description: 'Utrwalaj swoją wiedzę ucząc innych. Podczas tego sposobu poprawiasz skuteczność przekazu informacji a także swoją wiedzę z nauczania dziedziny'
+        title: 'Grow faster by sharing knowledge',
+        description: 'Consolidate your knowledge by teaching others. During this method, you improve the effectiveness of information transfer as well as your knowledge of teaching the field'
     }
 ];
-
-
-
 
  export const Path: FunctionComponent = () => (
  <Styles id="section3">
@@ -81,5 +78,4 @@ const cardContent = [
         ))}
        </ul>
  </Styles>
-
 );

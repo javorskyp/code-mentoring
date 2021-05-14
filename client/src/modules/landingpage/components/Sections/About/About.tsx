@@ -45,12 +45,12 @@ const ItemWrapper = styled.div `
 
 export const About: FunctionComponent = () => (
     <Styled id="section2">
-        <ul><span>Po co to wszystko</span></ul>
+        <ul><span>About Us</span></ul>
             <ItemWrapper>
                 <img src={whatWeDo} className="item__image" alt="WhatWeDo"/>
                 <div>
-                    <p>Chcemy stworzyć narzędzie, które pozwoli początkującym programistom 
-                        znaleźć mentorów, którzy pomogą im szybciej wejść na rynek i tworzyć komercyjne projekty.
+                    <p>We want to create a tool that will allow novice programmers
+                        find mentors who will help them get to the market faster and create commercial projects.
                     </p>
                 </div>
             </ItemWrapper>
