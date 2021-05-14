@@ -48,7 +48,7 @@ export const Login: FunctionComponent = () => {
                     </StyledForm>
                 </form>
                 <a href="a"><p>Forgot your password?</p></a>
-                <p>or login with</p>
+                <p>or Sign In with</p>
                 <SocialMedia>
                     <div>
                         <a href={`${process.env.REACT_APP_SERVER_URL}/auth/facebook`}>

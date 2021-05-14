@@ -13,12 +13,12 @@ const CollapseMenu: FunctionComponent<NavbarStateProps> = ({ isNavbarOpen, handl
     <>
       <li>
         <Link to="/register">
-          Rejestracja
+          Sign up
         </Link>
       </li>
       <li>
         <Link to="/login">
-          Zaloguj
+          Sign in
         </Link>
       </li>
     </>
@@ -28,12 +28,12 @@ const CollapseMenu: FunctionComponent<NavbarStateProps> = ({ isNavbarOpen, handl
     <>
       <li>
         <Link to="/">
-          Profil
+          Profile
         </Link>
       </li>
       <li>
         <Link to="/" onClick={() => logOut}>
-          Wyloguj
+          Sign out
         </Link>
       </li>
     </>
@@ -65,7 +65,7 @@ const CollapseMenu: FunctionComponent<NavbarStateProps> = ({ isNavbarOpen, handl
               offset={0}
               duration={500}
             >
-              O nas
+              About us
           </LinkScroll>
           </li>
           <li>
@@ -77,7 +77,7 @@ const CollapseMenu: FunctionComponent<NavbarStateProps> = ({ isNavbarOpen, handl
               offset={0}
               duration={500}
             >
-              Zostań Mentorem
+              Become a mentor
           </LinkScroll>
           </li>
 

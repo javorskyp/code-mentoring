@@ -49,7 +49,7 @@ export const Register: FunctionComponent = () => {
                 </form>
 
                 <p>message form the register verification</p>
-                <p>or register with</p>
+                <p>or Sign Up with</p>
                 <SocialMedia>
                     <div>
                         <a href={`${process.env.REACT_APP_SERVER_URL}/auth/facebook`}>

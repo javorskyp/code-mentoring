@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import alvaroReyesCoders from '../../../../assets/alvaroReyesCoders.jpg';
 
 const Styles = styled.div ` 
     background: var(--LightThemeBcg);
@@ -52,19 +51,13 @@ const Mask = styled.div`
 
 `;
 
-const ImgOfCoders =styled.img`
-    height: 100vh;
-    width: 1400px;
-    border-radius: 5px;
-`;
-
 export const Hero = () => (
     <Styles id="section1">
          <Wrapper>
              <Mask>
                 
              </Mask>
-             <Text>Poznaj ludzi, z którymi rozwiniesz swoje umiejętności</Text>
+             <Text>Meet the people with whom you will develop your skills</Text>
              <Arrow/>
         </Wrapper>
     </Styles>

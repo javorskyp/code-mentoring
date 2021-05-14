@@ -43,12 +43,12 @@ export const Footer: FunctionComponent = () => (
      <div className="section">
          <ul className="footer_links">
             <div>
-                <a href="/"><span>Polityka Cookies</span></a>
-                <a href="/"><span>Warunki korzystania</span></a>
-                <a href="/"><span>Centrum pomocy</span></a>
+                <a href="/"><span>Cookies Policy</span></a>
+                <a href="/"><span>Terms of Service</span></a>
+                <a href="/"><span>Help Center</span></a>
             </div>
             <div>
-                <a href="/"><span>4Dev&Mentor © 2020</span></a>
+                <a href="/"><span>4Dev&Mentor © 2021</span></a>
             </div>
          </ul>   
      </div>

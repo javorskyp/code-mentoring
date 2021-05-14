@@ -29,14 +29,14 @@ const Navbar: FunctionComponent = () => {
   }
   const guestLinks = (
     <>
-      <Link to="/auth/register">Rejestracja</Link>
-      <Link to="/auth/login">Zaloguj</Link>
+      <Link to="/auth/register">Sign up</Link>
+      <Link to="/auth/login">Log in</Link>
     </>
   );
   const authLinks = (
     <>
-      <Link to="/">Profil</Link>
-      <Link onClick={() => logOut} to="/">Wyloguj</Link>
+      <Link to="/">Profile</Link>
+      <Link onClick={() => logOut} to="/">Sign out</Link>
     </>
   );
 
@@ -53,7 +53,7 @@ const Navbar: FunctionComponent = () => {
             offset={0}
             duration={500}
           >
-            O nas
+            About us
           </LinkScroll>
           <LinkScroll 
             activeClass="active"
@@ -63,7 +63,7 @@ const Navbar: FunctionComponent = () => {
             offset={0}
             duration={500}
           >
-            Zostań Mentorem
+            Become a mentor
           </LinkScroll>
           {!loading && isAuthenticated ? authLinks : guestLinks}
         </NavLinks>
