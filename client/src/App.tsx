@@ -1,10 +1,10 @@
 import React, {FunctionComponent, useState} from "react";
 import GlobalStyle from "./styles/Global";
-import Navbar from "./modules/Navbar/Navbar";
+import Navbar from "./pages/Navbar/Navbar";
 import {Route, BrowserRouter, Switch} from "react-router-dom";
-import {LandingPage} from "./modules/landingpage/LandingPage";
+import {LandingPage} from "./pages/landingpage/LandingPage";
 import {AuthProvider} from './context/auth';
-import {AuthRouter} from "./modules/auth/Auth.router";
+import {AuthRouter} from "./pages/auth/Auth.router";
 
 const App: FunctionComponent = () =>
     <BrowserRouter>
