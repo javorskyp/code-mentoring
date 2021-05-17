@@ -1,6 +1,6 @@
 import React, { FunctionComponent } from "react";
-import { Button } from '../Button/Button';
-import  { ActionButtonProps, ButtonProps } from '../types'
+import { Button } from './Button';
+import  { ActionButtonProps, ButtonProps } from './types'
 
 
 export const ActionButton: FunctionComponent<ActionButtonProps> = ({ type, background, margin,  float, name}) => (

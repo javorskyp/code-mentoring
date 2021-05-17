@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import avatar from "../../assets/avatar.svg";
-import { ActionButton } from "../elements/buttons/ActionButton";
+import { ActionButton } from '../elements/Buttons/ActionButton';
 
 const Profile = () => {
   return (
