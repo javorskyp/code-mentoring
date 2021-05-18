@@ -1,3 +1,3 @@
-export { Path } from './Path/Path';
-export { About } from './About/About';
-export { Join } from './Join/Join';
+export { Path } from './Path';
+export { About } from './About';
+export { Join } from './Join';

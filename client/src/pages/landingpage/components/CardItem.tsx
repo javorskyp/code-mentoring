@@ -1,5 +1,5 @@
 import React, { FunctionComponent } from 'react';
-import { CardItemProps } from '../types';
+import { CardItemProps } from './types';
 
 export const CardItem: FunctionComponent<CardItemProps> = ({ title, description }) => (
     <li className="cardItem__wrapper">

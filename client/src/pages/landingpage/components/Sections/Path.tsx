@@ -1,6 +1,6 @@
 import React, { FunctionComponent } from 'react';
 import styled from 'styled-components';
-import { CardItem } from '../../CardItem/CardItem';
+import { CardItem } from '../CardItem';
 
 const Styles = styled.div ` 
     background-color: var(--LightThemeBcg);
